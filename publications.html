@@ -21,6 +21,65 @@
     <!-- Styles -->
     <link href="js/plugins/highlight/solarized-light.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <style>
+        .plinks {
+            display: inline-block;
+        }
+        .plink {
+            display: inline-block;
+            padding: 1px;
+            margin: 1px;
+        }
+        .plink a {
+            color: darkblue;
+        }
+        .ptitle {
+            padding: 1px;
+            margin: 1px;
+            
+            color:midnightblue;
+        }
+        .pauthors {
+            padding: 1px;
+            margin: 1px;
+            font-style: italic;
+        }
+        .pvenue {
+            display: inline-block;
+            color: #500;
+            margin: 1px;
+        }
+        .paper {
+            border-bottom: solid 1px #EEE;
+            margin-bottom: 5px;
+        }
+        .pimg img {
+            height: 80px;
+            max-width: 100%;
+            border: 0;
+            vertical-align: middle;
+        }
+        .pimg {
+            float:right;
+            width: 120px;
+        }
+        .pnotes {
+            display: inline-block;
+            color:rgb(175, 7, 7);
+            margin: 1px;
+            font-weight: bold;
+        }
+        #reminder {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+        }
+        
+        
+    </style>
 
     <!-- Modernizer -->
     <script type="text/javascript" src="js/vendor/modernizr-3.3.1.min.js"></script>
@@ -80,25 +139,23 @@
                     <p><b><font size="5">2019</font></b><br><br>
                         <div class="paper">
                             <div class="pimg">
-                                <img src="img/uploads/paper_imgs/Deep Neural Architecture Search with Deep Graph Bayesian Optimization.png" width="150" height="60">
+                                <img src="img/uploads/paper_imgs/Deep Neural Architecture Search with Deep Graph Bayesian Optimization.png">
                             </div>
                             <div class="ptitle">Deep Neural Architecture Search with Deep Graph Bayesian Optimization</div>
                             <div class="pauthors">Lizheng Ma, <b>Jiaxu Cui</b>, Bo Yang</div>
-                               
-                            
-                            <div class="pvenue">
-                                Preprint ArXiv: 1905.06159 
-                            </div>
+                            <div class="pvenue">Preprint ArXiv: 1905.06159 </div>
                             <div class="pnotes">
                             </div>
                             <div class="plinks">
-                                <a href="https://arxiv.org/pdf/1905.06159.pdf" style="color:blue">[PDF]</a>
+                                <div class="plink">
+                                    <a href="https://arxiv.org/pdf/1905.06159.pdf">[PDF]</a>
+                                </div>
                             </div>
                         </div>
                         
                         <div class="paper">
                                 <div class="pimg">
-                                    <img src="img/uploads/paper_imgs/Learning Optimal Data Augmentation Policies via Bayesian Optimization for Image Classification Tasks.png" width="150" height="60">
+                                    <img src="img/uploads/paper_imgs/Learning Optimal Data Augmentation Policies via Bayesian Optimization for Image Classification Tasks.png">
                                 </div>
                                 <div class="ptitle">
                                     Learning Optimal Data Augmentation Policies via Bayesian Optimization for Image Classification Tasks
@@ -110,44 +167,123 @@
                                     Preprint ArXiv: 1905.02610
                                 </div>
                                 <div class="plinks">
-                                    <a href="https://arxiv.org/pdf/1905.02610.pdf" style="color:blue">[PDF]</a> <a href="https://github.com/zhangxiaozao/BO-Aug" style="color:blue">[Code]</a>
+                                    <div class="plink">
+                                        <a href="https://arxiv.org/pdf/1905.02610.pdf">[PDF]</a>
+                                    </div>
+                                    <div class="plink">
+                                        <a href="https://github.com/zhangxiaozao/BO-Aug">[Code]</a>
+                                    </div> 
                                 </div>
                             </div>
                         
                         <div class="paper">
                             <div class="pimg">
-                                <img src="img/uploads/paper_imgs/Deep Bayesian Optimization on Attributed Graphs.png" width="150" height="60">
+                                <img src="img/uploads/paper_imgs/Deep Bayesian Optimization on Attributed Graphs.png">
                             </div>
-                            <div class="ptitle">
-                                Deep Bayesian Optimization on Attributed Graphs
-                            </div>
-                            <div class="pauthors">
-                                <b>Jiaxu Cui</b>, Bo Yang, Xia Hu
-                            </div>
-                            <div class="pvenue">
-                                AAAI 2019
-                            </div>
-                            <div class="pnotes">
-                                (Acceptance rate: 16.2%, CCF A)
-                            </div>
+                            <div class="ptitle">Deep Bayesian Optimization on Attributed Graphs</div>
+                            <div class="pauthors"><b>Jiaxu Cui</b>, Bo Yang, Xia Hu</div>
+                            <div class="pvenue">AAAI 2019</div>
+                            <div class="pnotes">(Acceptance rate: 16.2%, CCF A)</div>
                             <div class="plinks">
-                                <a href="https://arxiv.org/abs/1905.13403" style="color:blue">[Paper]</a> <a href="https://github.com/csjtx1021/DGBO" style="color:blue">[Code]</a>
+                                <div class="plink">
+                                    <a href="https://arxiv.org/abs/1905.13403">[PDF]</a> 
+                                </div>
+                                <div class="plink">
+                                    <a href="https://github.com/csjtx1021/DGBO">[Code]</a>
+                                </div>
+                                <div class="plink">
+                                    <a href="img/uploads/posters/AAAI2019poster-cui-PosterPresentations.com-30x40-Template-V5.pdf">[Poster]</a> 
+                                </div>
                             </div>
                         </div>
-                        
-
-
-                      <b>Jiaxu Cui</b>, Bo Yang and Xia Hu. Deep Bayesian Optimization on Attributed Graphs. <u><i>AAAI 2019</i></u>. <font color="#FF0000">(Acceptance rate: 16.2%, CCF A)</font>  <br><br>
                     </p>
                     <p><b><font size="5">2018</font></b><br><br>
-                        Xitong Wang, Yonggang Zhang and <b>Jiaxu Cui</b>. The New Adaptive ETLBO Algorithms with K-Armed Bandit Model. <u><i>KSEM 2018</i></u>. <font color="#FF0000">(CCF C)</font> <a href="https://link.springer.com/chapter/10.1007/978-3-319-99247-1_3" style="color:blue">[Paper]</a><br><br>
-                        <b>Jiaxu Cui</b>, Bo Yang. Graph Bayesian Optimization: Algorithms, Evaluations and Applications. <u><i>Preprint ArXiv: 1805.01157v4.</i></u> <a href="https://arxiv.org/pdf/1805.01157.pdf" style="color:blue">[Paper]</a><br><br>
-                        <b>Jiaxu Cui</b>, Bo Yang. Survey on Bayesian Optimization Methodology and Applications. <u><i>Ruan Jian Xue Bao/Journal of Software</i></u>, 2018,29(10), (in Chinese). <a href="http://www.jos.org.cn/jos/ch/reader/create_pdf.aspx?file_no=5607&journal_id=jos" style="color:blue">[Paper]</a><br><br>
-                        Shuangmei Zhao, <b>Jiaxu Cui</b>, Yonggang Zhang. Solving the MaxCSPs using MMC with teaching strategy. <u><i>Journal of Nanjing University (Natural Science)</i></u>, 2018,54(01):134-147, (in Chinese). <a href="http://search.cnki.net/down/default.aspx?filename=NJDZ201801015&dbcode=CJFD&year=2018&dflag=pdfdown" style="color:blue">[Paper]</a><br><br>
+                        <div class="paper">
+                                <div class="pimg">
+                                    <img src="img/uploads/paper_imgs/The New Adaptive ETLBO Algorithms with K-Armed Bandit Model.png">
+                                </div>
+                                <div class="ptitle">The New Adaptive ETLBO Algorithms with K-Armed Bandit Model</div>
+                                <div class="pauthors">Xitong Wang, Yonggang Zhang, <b>Jiaxu Cui</b></div>
+                                <div class="pvenue">KSEM 2018</div>
+                                <div class="pnotes">(CCF C)</div>
+                                <div class="plinks">
+                                    <div class="plink">
+                                       <a href="https://link.springer.com/chapter/10.1007/978-3-319-99247-1_3">[PDF]</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="paper">
+                                <div class="pimg">
+                                    <img src="img/uploads/paper_imgs/Graph Bayesian Optimization- Algorithms, Evaluations and Applications .png">
+                                </div>
+                                <div class="ptitle">Graph Bayesian Optimization: Algorithms, Evaluations and Applications</div>
+                                <div class="pauthors"><b>Jiaxu Cui</b>, Bo Yang</div>
+                                <div class="pvenue">Preprint ArXiv: 1805.01157v4</div>
+                                <div class="pnotes"></div>
+                                <div class="plinks">
+                                    <div class="plink">
+                                        <a href="https://arxiv.org/pdf/1805.01157.pdf">[PDF]</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="paper">
+                                <div class="pimg">
+                                    <img src="img/uploads/paper_imgs/Survey on Bayesian Optimization Methodology and Applications.png">
+                                </div>
+                                <div class="ptitle">Survey on Bayesian Optimization Methodology and Applications</div>
+                                <div class="pauthors"><b>Jiaxu Cui</b>, Bo Yang</div>
+                                <div class="pvenue">Ruan Jian Xue Bao/Journal of Software, 2018,29(10), (in Chinese)</div>
+                                <div class="pnotes"></div>
+                                <div class="plinks">
+                                    <div class="plink">
+                                        <a href="http://www.jos.org.cn/jos/ch/reader/create_pdf.aspx?file_no=5607&journal_id=jos">[PDF]</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="paper">
+                                <div class="pimg">
+                                    <img src="img/uploads/paper_imgs/Solving the MaxCSPs using MMC with teaching strategy.png">
+                                </div>
+                                <div class="ptitle">Solving the MaxCSPs using MMC with teaching strategy</div>
+                                <div class="pauthors">Shuangmei Zhao, <b>Jiaxu Cui</b>, Yonggang Zhang</div>
+                                <div class="pvenue">Journal of Nanjing University (Natural Science), 2018,54(01):134-147, (in Chinese)</div>
+                                <div class="pnotes"></div>
+                                <div class="plinks">
+                                    <div class="plink">
+                                         <a href="http://search.cnki.net/down/default.aspx?filename=NJDZ201801015&dbcode=CJFD&year=2018&dflag=pdfdown">[PDF]</a>
+                                    </div>
+                                </div>
+                        </div> 
                     </p>
                     <p><b><font size="5">2016</font></b><br><br>
-                        Xiaohui Wei, Bingyi Sun, <b>Jiaxu Cui</b>, Gaochao Xu. A Multi-Objective Compounded Local Mobile Cloud Architecture Using Priority Queues to Process Multiple Jobs. <u><i>Plos One</i></u>. 2016, 11(7): e0158491. <font color="#FF0000">(2016 Impact Factor : 2.806)</font> <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0158491&type=printable" style="color:blue">[Paper]</a><br><br>
-                        <b>Jiaxu Cui</b>. Research on the Extension and Application of Mistral Solver. <u><i>Master Thesis</i></u>. Jilin University, 2016. <a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-1016091387.htm" style="color:blue">[Paper]</a><br><br>
+                        <div class="paper">
+                                <div class="pimg">
+                                    <img src="img/uploads/paper_imgs/A Multi-Objective Compounded Local Mobile Cloud Architecture Using Priority Queues to Process Multiple Jobs.png">
+                                </div>
+                                <div class="ptitle">A Multi-Objective Compounded Local Mobile Cloud Architecture Using Priority Queues to Process Multiple Jobs</div>
+                                <div class="pauthors">Xiaohui Wei, Bingyi Sun, <b>Jiaxu Cui</b>, Gaochao Xu</div>
+                                <div class="pvenue">Plos One, 2016, 11(7): e0158491</div>
+                                <div class="pnotes">(2016 Impact Factor : 2.806)</div>
+                                <div class="plinks">
+                                    <div class="plink">
+                                        <a href="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0158491&type=printable">[PDF]</a>
+                                    </div>
+                                </div>  
+                        </div>
+                        <div class="paper">
+                                <div class="pimg">
+                                    <img src="img/uploads/paper_imgs/Research on the Extension and Application of Mistral Solver.png">
+                                </div>
+                                <div class="ptitle">Research on the Extension and Application of Mistral Solver</div>
+                                <div class="pauthors"><b>Jiaxu Cui</b></div>
+                                <div class="pvenue">Master Thesis, Jilin University, 2016, (in Chinese).</div>
+                                 Supervisor: Dr. Yonggang Zhang
+                                <div class="plinks">
+                                    <div class="plink">
+                                            <a href="http://cdmd.cnki.com.cn/Article/CDMD-10183-1016091387.htm" >[PDF]</a>
+                                    </div>
+                                </div>  
+                        </div>
                     </p>
                 </div>
             </div>
