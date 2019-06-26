@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    font-size: 16px;
-    line-height: 1.4em;
+    font-size: 14px;
+    line-height: 20px;
     letter-spacing: 0.08em;
     padding: 0;
     margin: 0;
@@ -4893,6 +4893,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 1.375em;
 }
 
+
 @media (max-width: 479px) {
     .section [class^="col-xs-"] {
         margin-bottom: 2em;
@@ -5543,6 +5544,54 @@ h1, h2, h3, h4, h5, h6 {
     .ace-sidebar-on .ace-head-boxed.ace-logo-out #ace-head-col3 {
         width: 60px !important;
     }
+}
+/**
+*Paper
+*/
+.paper{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eee;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.pimg{
+    height: 60px;
+    width: 150px; 
+    display: block;
+    max-width: 100%;
+
+}
+
+.ptitle{
+    padding: 1px;
+    margin: 1px;
+    font-weight: bold;
+    display: block;
+}
+
+.pauthors{
+    padding: 1px;
+    margin: 1px;
+    font-style: italic;
+    display: block;
+}
+
+.pvenue{
+    display: inline-block;
+    color: darkcyan;
+    margin: 1px;
+}
+
+.plink{
+    display: inline-block;
+}
+
+.pnotes{
+    display: inline-block;
+    color: #c7254e;
+    margin: 1px;
 }
 
 /**
