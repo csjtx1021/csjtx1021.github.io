@@ -125,23 +125,29 @@
                         <b>We are collecting the human preference data of odor molecules for research.</b>
                     </p>
                     <p>
-                        <b>Step 1: download a tool implemented by Python3 from <a href="https://github.com/csjtx1021/collect_preference_data_tool" style="color:blue">here</a> and install the dependency packages.</b><br>
-                        <b>Step 2: after installing the dependency packages, please select an available test group from the following.</b>
-                        <table border="1">
-                            <tr>
-                            <td>group 1</td>
-                            <td>number of participants</td>
-                            </tr>
-                            <tr>
-                            <td>group 2</td>
-                            <td>number of participants</td>
-                            </tr>
-                        </table>
+                        <b>Step 1:</b> download a tool implemented by Python3 from <a href="https://github.com/csjtx1021/collect_preference_data_tool" style="color:blue">here</a> and install the dependency packages.
+                        <br><br>
+                        <b>Step 2:</b> after installing the dependency packages, please select an available test group from {1,2,3,4,5,6,7,8,9,10} (Up to 5 participants in each group).
+                        Please fill your name/id under the group you want to joint in this <a href="https://docs.qq.com/sheet/DWGFka1F0RFZFY3Vh" style="color:blue">editable form</a>.
+                        <br><br>
+                        <b>Step 3:</b> after choosing your group, please run this tool by <br>
+                        <br>
+                            &nbsp&nbsp&nbsp&nbsp$$ python collect_preference_data.py --TG=[your test group number]
+                        <br><br>
+                            For example, if your group is Group 1, you can use the following command:<br><br>
+                            &nbsp&nbsp&nbsp&nbsp$$ python collect_preference_data.py --TG=1
+                        <br><br>
+                        <b>Step 4:</b> when you finish this test, please find XXX.xlsx files in the "collected_data/" folder 
+                        and send me an email with these files and write the subject as "Collected Data" (My email: 774197840@qq.com).
+                        <br>
+                        <br>
 
-                        <form action="form_action.asp" method="get"></form>
-                            Choose group: <input id="input1" type="text" name="fname" />
-                            <input type="submit" value="Submit" οnclick="test()"/>
-                          </form>
+                        <b>Thank you for participating in this data collection!</b>
+
+                        
+                        
+
+                       
                 
                 </p>
                
@@ -180,12 +186,6 @@
 </div><!-- .ace-wrapper -->
 
 <!-- Scripts -->
-<script>
-    function test(){
-           //获取 输入框的值
-           alert(document.getElementById("data").value);
-        }
-</script>
 
 
 <script type="text/javascript" src="js/vendor/jquery-1.12.4.min.js"></script>
